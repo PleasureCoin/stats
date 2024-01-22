@@ -4,7 +4,7 @@ const http = require('http');
 
 const hostname = '127.0.0.1';
 const port = 3500;
-const { providers, JsonRpcProvider, ethers }  = require('ethers');
+const { ethers }  = require('ethers');
 const BigNumber = require('bignumber.js');
 const abi = require("./resources/NSFW.json");
 const stakingabi = require("./resources/NSFWStaking.json")
